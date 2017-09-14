@@ -23,11 +23,11 @@ static void printUpdate(int *x, int *y, int valx, int valy) {
     if (*y != valy) {
       *y = valy;
     }
-    Serial.print("(");
+    Serial.print(F("("));
     Serial.print(*x);
-    Serial.print(",");
+    Serial.print(F(","));
     Serial.print(*y);
-    Serial.print(")");
+    Serial.print(F(")"));
     Serial.println();
   }
 }
