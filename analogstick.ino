@@ -3,7 +3,7 @@
  *         Arduino reads its raw values, filters(Radial Scaling method) them and
  *         prints to serial port when there is an change.
  *
- *  Board: Arduino Pro Mini (3.3V, 8MHz)
+ *  Board: Arduino Pro Mini ATmega328 (3.3V, 8MHz)
  *
  *  Connections: Type   Pro Mini   Analog Stick
  *               Output   A2         VRx
